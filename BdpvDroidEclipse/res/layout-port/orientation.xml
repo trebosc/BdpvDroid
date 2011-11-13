@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button android:text="@string/Back" android:id="@+id/OrientationBack"
+			android:layout_width="wrap_content" android:layout_height="35dip"
+			android:textSize="12sp"></Button>
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="@string/OrientationRoof"
+			android:gravity="center_horizontal" android:textSize="20sp"></TextView>
+
+	</LinearLayout>
+
+	<ImageView android:src="@drawable/maison_vue_dessus"
+		android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></ImageView>
+
+	<ImageView android:src="@drawable/silhouette_vue_dessus"
+		android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="5dip"></ImageView>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:gravity="center_horizontal"
+		android:text="@string/PutYourselfInFront" android:textSize="15sp"
+		android:padding="5dip"></TextView>
+<!-- android:src="@drawable/boussole"  -->
+	<ImageView android:id="@+id/Boussole" 
+		android:layout_width="fill_parent" android:layout_height="165px"
+		android:layout_centerHorizontal="true"></ImageView>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="@string/WaitUntilTheCompassStop"
+		android:textSize="15sp" android:gravity="center_horizontal"
+		android:padding="5dip"></TextView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:id="@+id/DegreBoussole" android:gravity="center_horizontal"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:text="xxx°" android:textSize="20dp"></TextView>
+
+		<Button android:text="@string/Ok" android:id="@+id/OrientationValider"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center_horizontal"></Button>
+	</LinearLayout>
+
+</LinearLayout>

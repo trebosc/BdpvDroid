@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">BdpvDroid</string>
+	<string name="Langue">fr</string>
+	<string name="English">French</string>
+	<string name="About">A propos</string>
+	<string name="Ok1">Ok</string>
+	<string name="Align_your_Phone_and_your_roof">Aligner votre iPhone et votre toit</string>
+	<string name="IndicateSlope">Indiquez l\'angle de votre toit</string>
+	<string name="WithTheRedPoint">avec le point rouge ou la glissière.</string>
+	<string name="Slope">Angle :</string>
+	<string name="Cancel">Annuler</string>
+	<string name="PutYourselfInFront">Mettez-vous face à votre toiture</string>
+	<string name="WaitUntilTheCompassStop">Attendez que la boussole s\'arrête</string>
+	<string name="Back">Retour</string>
+	<string name="SlopeRoof">Pente toiture</string>
+	<string name="Result">Résultat</string>
+	<string name="OrientationRoof">Orientation toiture</string>
+	<string name="LoadingInProgress">Chargement en cours</string>
+	<string name="DoYouSeeYourRoofSide">Voyez-vous le côté de votre toiture</string>
+	<string name="LikeOnThePicture">comme sur cette photographie ?</string>
+	<string name="UnknownErrorBdpvServerWithParameter">Erreur inconnue (%@) renvoyée par le serveur
+		iBDPV.fr\nMerci
+		d\'envoyer un mail à contact@ibdpv.fr</string>
+	<string name="UnknownErrorBdpvServer">Erreur inconnue renvoyée par le serveur
+		iBDPV.fr\nMerci d\'envoyer
+		un mail à contact@ibdpv.fr</string>
+	<string name="UnknownError">Erreur inconnue</string>
+	<string name="UploadError">Erreur lors du chargement</string>
+	<string name="ErrorParsingXml">Erreur parsing XML</string>
+	<string name="EnterAnAddress">Entrer une adresse</string>
+	<string name="Error">Erreur</string>
+	<string name="EstimateMyProduction">Estimer ma production</string>
+	<string name="Step2_3Slope">Etape 2/3 - Pente</string>
+	<string name="Congratulation">Fèlicitation, vous utilisez une version bêta, non
+		disponible actuellement.</string>
+	<string name="ItIsNecessaryToDownloadWithParameter">Il est nécessaire de télécharger la nouvelle
+		version (v%@)</string>
+	<string name="ItIsNecessaryToDownload">Il est nécessaire de télécharger la nouvelle
+		version.</string>
+	<string name="UnableToConnect">Impossible de se connecter au serveur BDPV\nMerci
+		d\'activer votre
+		connexion Internet et de relancer iBDPV.</string>
+	<string name="InclineYourPhone">Inclinez votre iPhone afin de faire correspondre
+		son côté avec
+		votre toit, comme sur la photo ci-dessous.</string>
+	<string name="IndicateNorth">Indiquez le Nord sur la boussole</string>
+	<string name="ByMakingItTurn">en la faisant tourner avec votre doigt</string>
+	<string name="KmConnected">km\nRaccordé le</string>
+	<string name="LocateYourHouse">Localisez votre maison</string>
+	<string name="BadReception">Mauvaise réception des données\nMerci de
+		re-essayer
+		à nouveau.</string>
+	<string name="NearInstallations">Fiches proches</string>
+	<string name="No">Non</string>
+	<string name="ANewerVersion">Nouvelle version (v%@) iBDPV disponible</string>
+	<string name="NumberOfInstallation:">Nb fiches:</string>
+	<string name="Ok">Valider</string>
+	<string name="NoCompass">Pas de boussole</string>
+	<string name="NoConnexion">Pas de connexion</string>
+	<string name="SwitchInManualMode.">Passage en mode manuel.</string>
+	<string name="Later">Plus tard</string>
+	<string name="ProblemXml">Problème d\'extraction du XML</string>
+	<string name="ThenPressOk">puis appuyez sur le bouton \'Valider\'</string>
+	<string name="Download">Télécharger</string>
+	<string name="BdpvBeta">version BDPV Android béta</string>
+	<string name="BdpvObsoleteVersion ">Version iBDPV obsolète</string>
+	<string name="VersionUpToDate">Version upToDate - Version officielle sur appStore
+	</string>
+	<string name="CheckingConnection">Vérification connexion iBDPV.fr\nPatienter
+		patienter ...</string>
+	<string name="Yes">Oui</string>
+	<string name="CommentAbout">
+		IBDPV vous permet de calculer la quantité d\'électricité photovoltaïque
+		que vous produiriez en installant des panneaux PV sur votre toit, mais
+		également de découvrir les installations photovoltaïque proches de
+		chez vous.
+		<br/>
+		<br/>
+		L\'application IBDPV est UNIQUE car l\'estimation de votre production
+		est réalisée à partir de chiffres REELS, provenant d\'installation PV
+		en cours de fonctionnement se trouvant proche de chez vous. iBDPV
+		utilise les données saisies, par des milliers de particuliers, sur le
+		site bdpv.fr (description en dessous).
+		<br/>
+		<br/>
+		<b>Glossaire :</b>
+		<br/>
+		Panneaux photovoltaïque : appelé aussi panneaux PV, il s\'agit de
+		panneaux posés sur votre toiture et capable de produire de
+		l\'électricité verte à partir du soleil.
+		<br/>
+		<br/>
+		<b>
+			Description du site
+			<a href="http://www.bdpv.fr">http://www.bdpv.fr</a>
+			:
+		</b>
+		<br/>
+		Le site BDPV permet aux propriétaires de panneaux photovoltaïques de
+		suivre l\'évolution de leur production d\'électricité au fil des ans et
+		de la comparer à des installations proches. BDPV aide à savoir si un
+		système PV se comporte comme simulé par l\'installateur, qu\'il ne
+		faiblit pas dans le temps, qu\'il réagit comme d\'autres installations
+		proches, .... Tout cela gratuitement.
+		<br/>
+		BDPV fournit un ensemble de graphiques pour analyser vos données,
+		graphiques que vous pouvez aussi insérer dans votre blog ou site web.
+		<br/>
+		Pour ceux n\'ayant pas encore de panneaux solaires, BDPV apporte la
+		possibilité de visualiser, sur une carte, les installations de sa
+		région, de voir le matériel utilisé (onduleur, ...), la production
+		attendue, les graphiques de production, ...
+		<br/>
+		<br/>
+		<b>Partenaires :</b>
+		<br/>
+		<a href="http://forum-photovoltaique.fr">http://forum-photovoltaique.fr</a>
+		: Ce forum s\'adresse à tous ceux qui s\'intéressent, ont déjà ou
+		aimeraient avoir une installation photovoltaïque. Que vous soyez un
+		particulier, un professionnel ou autres, ce forum vous permettra de
+		partager votre expérience, de poser des questions, de trouver des
+		conseils sur le matériel, sur quoi acheter, ce qu\'il faut vérifier,
+		....
+		<br/>
+		<a href="http://gppep.org">http://gppep.org</a>
+		: GPPEP est une association créée par des particuliers ayant des
+		panneaux photovoltaïques, pour des particuliers ayant déjà une
+		installation ou désirant en posséder une. GPPEP signifie : Groupement
+		des Particuliers Producteurs díElectricité Photovoltaïque
+		<br/>
+		<br/>
+		Une question ou une remarque : contact@ibdpv.fr
+		<br/>
+		Plus d\'informations sur iBDPV :
+		<a href="http://www.ibdpv.fr">http://www.ibdpv.fr</a>
+		<br/>
+		<br/>
+		<i>IBDPV a été développé par Jean-Mathieu D. et David T.</i>
+	</string>
+</resources>

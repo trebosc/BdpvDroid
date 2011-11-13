@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/fond_menu">
+	<Button android:text="@string/EstimateMyProduction"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:id="@+id/estimate_production" android:layout_marginTop="200dp"></Button>
+	<Button android:text="@string/NearInstallations"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:id="@+id/near_installations" android:layout_marginTop="10dp"></Button>
+	<Button android:text="@string/About" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/about"
+		android:layout_marginTop="50dp"></Button>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="v1.0b"
+		android:layout_marginTop="40dp"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<Button android:text="@string/Back" android:id="@+id/PenteChoixBack"
+			android:layout_width="wrap_content" android:layout_height="35dip"
+			android:textSize="12sp"></Button>
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="@string/SlopeRoof"
+			android:gravity="center_horizontal" android:textSize="20sp"></TextView>
+
+	</LinearLayout>
+
+
+	<ImageView android:padding="20dip"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/explication_pente_accelerometre"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></ImageView>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="10dip">
+		<TextView android:gravity="center_horizontal"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:text="@string/DoYouSeeYourRoofSide" android:textSize="18sp"></TextView>
+
+		<TextView android:gravity="center_horizontal"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:text="@string/LikeOnThePicture" android:textSize="18sp"></TextView>
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="10dip">
+
+		<Button android:text="@string/Yes"
+			android:id="@+id/PenteChoixOui" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp"></Button>
+
+		<Button android:text="@string/No"
+			android:id="@+id/PenteChoixNon" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp"></Button>
+
+	</LinearLayout>
+
+</LinearLayout>
