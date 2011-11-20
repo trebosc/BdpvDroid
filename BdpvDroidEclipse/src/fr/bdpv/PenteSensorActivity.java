@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 public class PenteSensorActivity extends Activity {
 
+	private View screen;
 	private Button penteOkButton;
 	private TextView degreView;
 	private float previousDegree = 0;
@@ -39,7 +40,7 @@ public class PenteSensorActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pente_sensor);
 		context = this;
-
+		screen = findViewById(R.id.MainPenteSensor);
 		penteOkButton = (Button) findViewById(R.id.PenteSensorOk);
 		penteOkButton.setOnClickListener(new Button.OnClickListener() {
 
@@ -82,6 +83,11 @@ public class PenteSensorActivity extends Activity {
 			Log.d("pente", "previousDegree=" + previousDegree + ", newDegree="
 					+ newDegree);
 			previousDegree = newDegree;
+			if (newDegree > 0) {
+				screen.setBackgroundResource(R.drawable.pente_background_gauche);
+			} else {
+				screen.setBackgroundResource(R.drawable.pente_background_droite);
+			}
 			degreView.setText(String.valueOf(newDegree));
 		}
 	}
