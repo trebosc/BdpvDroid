@@ -1,5 +1,6 @@
 package fr.bdpv;
 
+import java.util.Formatter;
 import java.util.List;
 
 import android.app.Activity;
@@ -10,7 +11,6 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -20,7 +20,7 @@ public class PenteSensorActivity extends Activity {
 	private View screen;
 	private Button penteOkButton;
 	private TextView degreView;
-	private float previousDegree = 0;
+	private float previousDegree;
 
 	private Context context;
 
@@ -79,16 +79,18 @@ public class PenteSensorActivity extends Activity {
 
 	// Mettre à jour l'orientation
 	protected void updateOrientation(float newDegree) {
+		Formatter formatter = new Formatter();
 		if (newDegree != previousDegree) {
-			Log.d("pente", "previousDegree=" + previousDegree + ", newDegree="
-					+ newDegree);
 			previousDegree = newDegree;
-			if (newDegree > 0) {
-				screen.setBackgroundResource(R.drawable.pente_background_gauche);
-			} else {
+			long arrondiDegree = Math.round(newDegree);
+			if (arrondiDegree > 0) {
 				screen.setBackgroundResource(R.drawable.pente_background_droite);
+			} else {
+				screen.setBackgroundResource(R.drawable.pente_background_gauche);
+				arrondiDegree = -arrondiDegree;
 			}
-			degreView.setText(String.valueOf(newDegree));
+			degreView.setText(String.valueOf(formatter.format("%1$2d°",
+					arrondiDegree)));
 		}
 	}
 

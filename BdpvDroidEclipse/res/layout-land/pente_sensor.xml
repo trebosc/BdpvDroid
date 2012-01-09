@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/MainPenteSensor" android:orientation="horizontal" android:layout_width="fill_parent"
-	android:layout_height="fill_parent" android:background="@drawable/pente_background_droite">
+	android:layout_height="fill_parent" android:background="@drawable/pente_background_droite" >
 
-	<TextView android:id="@+id/DegrePente" android:gravity="center_horizontal"
+ 	<TextView android:id="@+id/DegrePente" android:gravity="center_horizontal"
 		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:text="xxx°" android:textSize="20dp"></TextView>
+		android:text="" android:textSize="50dp" android:layout_marginTop="150dp" android:layout_marginLeft="50dp"></TextView>
 
+	<LinearLayout android:orientation="horizontal" android:gravity="right"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="10dip">
+		<Button android:text="@string/Ok" android:id="@+id/PenteSensorOk" android:textSize="20sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="right" android:layout_marginTop="150dp" android:layout_marginRight="50dp"></Button>
 
-	<Button android:text="@string/Ok" android:id="@+id/PenteSensorOk"
-		android:layout_width="wrap_content" android:layout_height="wrap_content"
-		android:gravity="center_horizontal"></Button>
-
-
+	</LinearLayout>
 </LinearLayout>
