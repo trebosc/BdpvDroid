@@ -9,7 +9,6 @@ import android.widget.Button;
 
 public class PenteChoixActivity extends Activity {
 
-	private Button penteChoixBackButton;
 	private Button penteChoixOuiButton;
 	private Button penteChoixNonButton;
 
@@ -26,15 +25,6 @@ public class PenteChoixActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pente_choix);
 		context = this;
-
-		penteChoixBackButton = (Button) findViewById(R.id.PenteChoixBack);
-		penteChoixBackButton.setOnClickListener(new Button.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				mainActivity.startActivity(context);
-			}
-		});
 
 		penteChoixOuiButton = (Button) findViewById(R.id.PenteChoixOui);
 		penteChoixOuiButton.setOnClickListener(new Button.OnClickListener() {
