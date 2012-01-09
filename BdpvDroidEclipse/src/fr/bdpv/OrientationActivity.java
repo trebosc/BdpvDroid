@@ -19,7 +19,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class OrientationActivity extends Activity {
-	private Button orientationBackButton;
 	private Button orientationValiderButton;
 	private TextView degreView;
 	private ImageView boussoleView;
@@ -55,16 +54,6 @@ public class OrientationActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.orientation);
 		context = this;
-
-		orientationBackButton = (Button) findViewById(R.id.OrientationBack);
-		orientationBackButton.setOnClickListener(new Button.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				// PenteChoixActivity.startActivity(context);
-				updateOrientation(previousDegree - 15);
-			}
-		});
 
 		orientationValiderButton = (Button) findViewById(R.id.OrientationValider);
 		orientationValiderButton
